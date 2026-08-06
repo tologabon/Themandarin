@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title description">
+  <title id="title">Mascotte grain de café</title>
+  <desc id="description">Un grain de café rétro souriant dessiné au trait</desc>
+  <path d="M136 27C105 5 61 16 33 50S11 129 43 151c31 22 76 11 103-24 28-35 22-78-10-100Z" fill="#F7F3E9" stroke="#23120B" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M128 29c-34 27-63 68-82 118" fill="none" stroke="#7A4B2A" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="69" cy="67" r="6" fill="#23120B"/>
+  <circle cx="102" cy="81" r="6" fill="#23120B"/>
+  <path d="M65 94c10 17 29 20 44 8" fill="none" stroke="#23120B" stroke-width="6" stroke-linecap="round"/>
+  <path d="M34 38 23 24M28 51 9 46M145 119l18 9" fill="none" stroke="#D94E34" stroke-width="6" stroke-linecap="round"/>
+</svg>

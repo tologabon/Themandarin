@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="The Mandarin Erenköy — nitelikli kahve, özel latte çeşitleri ve günlük taze hamur işleri."
+    >
+
+    <title>The Mandarin Erenköy | Nitelikli Kahve &amp; Özel Lezzetler</title>
+
+    <link rel="icon" href="src/assets/icons/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Pacifico&amp;family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&amp;display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="src/css/main.css">
+  </head>
+
+  <body>
+    <!-- Header / navigation principale -->
+    <header class="site-header" id="site-header">
+      <div class="navbar">
+        <a class="brand" href="#hero" aria-label="The Mandarin Erenköy — Ana sayfa">
+          <span class="brand__name">the mandarin</span>
+          <span class="brand__details">
+            <span class="brand__location">Erenköy</span>
+            <span class="brand__tagline" data-i18n="brand.tagline">Nitelikli Kahve</span>
+          </span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+          aria-label="Menüyü aç"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="primary-nav" id="primary-navigation" aria-label="Ana menü">
+          <ul class="primary-nav__list">
+            <li><a href="#signature-menu" data-i18n="nav.menu">Menümüz</a></li>
+            <li><a href="#concept" data-i18n="nav.about">Hakkımızda</a></li>
+            <li><a href="#reviews" data-i18n="nav.merch">Google Yorumları</a></li>
+            <li><a href="#site-footer" data-i18n="nav.contact">İletişim</a></li>
+          </ul>
+          <div class="language-switcher" aria-label="Dil seçimi">
+            <button class="language-switcher__option is-active" type="button" data-lang="TR" lang="tr" aria-pressed="true">TR</button>
+            <span class="language-switcher__divider" aria-hidden="true">|</span>
+            <button class="language-switcher__option" type="button" data-lang="EN" lang="en" aria-pressed="false">EN</button>
+            <span class="language-switcher__divider" aria-hidden="true">|</span>
+            <button class="language-switcher__option" type="button" data-lang="FR" lang="fr" aria-pressed="false">FR</button>
+          </div>
+          <a class="button button--nav" href="tel:4442352" data-i18n="button.order">Bizi Arayın</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero / introduction de la marque -->
+      <section class="hero" id="hero">
+        <div class="hero__heading">
+          <p class="hero__eyebrow" data-i18n="hero.eyebrow">Erenköy'ün Buluşma Noktası</p>
+          <h1 class="hero__title">
+            <span data-i18n="hero.title">Kahve, Kokteyl</span>
+            <span data-i18n="hero.titleAccent">&amp; Özel Lezzetler</span>
+          </h1>
+        </div>
+
+        <div class="hero__stage">
+          <div class="hero__visual hero__visual--hot-latte">
+            <img
+              class="hero__image"
+              src="src/assets/images/hero-hot-latte.svg"
+              alt="Latte art ile sıcak kahve"
+              width="800"
+              height="800"
+            >
+          </div>
+
+          <div class="hero__visual hero__visual--dish">
+            <img
+              class="hero__image"
+              src="src/assets/images/hero-dish.svg"
+              alt="The Mandarin mutfağından özel tabak"
+              width="800"
+              height="800"
+            >
+          </div>
+
+          <div class="hero__visual hero__visual--iced-latte">
+            <img
+              class="hero__image"
+              src="src/assets/images/latte-top-view.svg"
+              alt="The Mandarin buzlu latte, üstten görünüm"
+              width="800"
+              height="800"
+            >
+          </div>
+
+          <div class="hero__visual hero__visual--cocktail">
+            <img
+              class="hero__image"
+              src="src/assets/images/hero-cocktail.svg"
+              alt="Kurutulmuş portakallı özel kokteyl"
+              width="800"
+              height="800"
+            >
+          </div>
+
+          <div class="hero__visual hero__visual--pizza">
+            <img
+              class="hero__image"
+              src="src/assets/images/hero-pizza.svg"
+              alt="Fırından çıkmış pizza"
+              width="800"
+              height="800"
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Bandeau défilant / signatures de la maison -->
+      <div class="marquee" aria-label="The Mandarin lezzetleri">
+        <div class="marquee__track">
+          <p data-i18n="marquee.text">NİTELİKLİ KAHVE ★ TAZE HAMUR İŞLERİ ★ COLD BREW ★ ERENKÖY ★</p>
+          <p data-i18n="marquee.text" aria-hidden="true">NİTELİKLİ KAHVE ★ TAZE HAMUR İŞLERİ ★ COLD BREW ★ ERENKÖY ★</p>
+        </div>
+      </div>
+
+      <!-- Séparateur damier rétro -->
+      <div class="checkerboard-divider" aria-hidden="true"></div>
+
+      <!-- Concept / histoire et savoir-faire -->
+      <section class="concept" id="concept">
+        <div class="concept__inner">
+          <div class="concept__content">
+            <p class="concept__eyebrow" data-i18n="concept.eyebrow">The Mandarin'a Hoş Geldiniz</p>
+            <h2 class="concept__title" data-i18n="concept.title">Taze Kavrulmuş Kahve, Günlük Keyif</h2>
+            <p class="concept__copy" data-i18n="concept.copy">
+              Erenköy'de her fincan, özenle seçilmiş ve karakterini ortaya çıkarmak
+              için taze kavrulmuş çekirdeklerle başlar. Baristalarımız latte sanatını
+              ustalık, titizlik ve yaratıcılıkla buluşturur. The Mandarin, kısa bir
+              mola için uğrayıp sıcak atmosferi için kalacağınız canlı bir mahalle
+              kahvecisidir.
+            </p>
+
+            <div class="concept__mascot">
+              <img
+                src="src/assets/icons/coffee-mascot.svg"
+                alt="The Mandarin kahve çekirdeği maskotu"
+                width="180"
+                height="180"
+              >
+              <span data-i18n="concept.mascot">Sevgiyle kavruldu</span>
+            </div>
+          </div>
+
+          <div class="concept__visual">
+            <figure class="polaroid">
+              <div class="polaroid__photo">
+                <div class="store-placeholder" aria-hidden="true">
+                  <span class="store-placeholder__awning"></span>
+                  <span class="store-placeholder__sign">The Mandarin</span>
+                  <span class="store-placeholder__door"></span>
+                  <span class="store-placeholder__window"></span>
+                </div>
+                <img
+                  class="polaroid__image"
+                  src="src/assets/images/concept-store.jpg"
+                  alt="The Mandarin Erenköy kahve dükkânının cephesi"
+                  width="800"
+                  height="960"
+                >
+              </div>
+              <figcaption data-i18n="concept.caption">İyi kahve, güzel insanlar.</figcaption>
+              <span class="polaroid__badge">Erenköy, İstanbul</span>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- İmza menüsü / latte, americano ve tatlılar -->
+      <section class="signature-menu" id="signature-menu">
+        <div class="signature-menu__header">
+          <div>
+            <p class="signature-menu__eyebrow" data-i18n="menu.eyebrow">Tutkuyla hazırlandı</p>
+            <h2 class="signature-menu__title" data-i18n="menu.title">İmza Lezzetlerimiz</h2>
+          </div>
+
+          <div class="menu-filters" aria-label="Menü kategorileri">
+            <span class="menu-filter is-active" data-i18n="menu.filterAll">Tümü</span>
+            <span class="menu-filter" data-i18n="menu.filterCold">Soğuk Kahveler</span>
+            <span class="menu-filter" data-i18n="menu.filterHot">Sıcak Kahveler</span>
+            <span class="menu-filter" data-i18n="menu.filterPastry">Tatlılar &amp; Pastalar</span>
+          </div>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-card__visual product-card__visual--caramel">
+              <span class="product-card__price">₺160</span>
+              <div class="product-placeholder product-placeholder--iced" aria-hidden="true"><span></span></div>
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__tag" data-i18n="product.caramel.tag">Çok Satan</span>
+              <h3 data-i18n="product.caramel.name">Smashed Caramel Latte</h3>
+              <p data-i18n="product.caramel.copy">Double espresso, kadifemsi süt, ev yapımı karamel ve bir tutam deniz tuzu.</p>
+              <button class="product-card__action" type="button" aria-label="Smashed Caramel Latte siparişe ekle">+</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__visual product-card__visual--brew">
+              <span class="product-card__price">₺145</span>
+              <div class="product-placeholder product-placeholder--iced" aria-hidden="true"><span></span></div>
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__tag" data-i18n="product.coldbrew.tag">Sadece Soğuk</span>
+              <h3 data-i18n="product.coldbrew.name">Erenköy Cold Brew</h3>
+              <p data-i18n="product.coldbrew.copy">18 saatlik yavaş demleme; kakao, portakal ve esmer şeker notaları.</p>
+              <button class="product-card__action" type="button" aria-label="Erenköy Cold Brew siparişe ekle">+</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__visual product-card__visual--espresso">
+              <span class="product-card__price">₺110</span>
+              <div class="product-placeholder product-placeholder--hot" aria-hidden="true"><span></span></div>
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__tag" data-i18n="product.americano.tag">Özel Kavrum</span>
+              <h3 data-i18n="product.americano.name">Mandarin Americano</h3>
+              <p data-i18n="product.americano.copy">Turunçgil notaları taşıyan, dengeli ve ipeksi imza espressomuz.</p>
+              <button class="product-card__action" type="button" aria-label="Mandarin Americano siparişe ekle">+</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__visual product-card__visual--pistachio">
+              <span class="product-card__price">₺135</span>
+              <div class="product-placeholder product-placeholder--pastry" aria-hidden="true"><span></span></div>
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__tag" data-i18n="product.croissant.tag">Her Gün Taze</span>
+              <h3 data-i18n="product.croissant.name">Pistachio Croissant</h3>
+              <p data-i18n="product.croissant.copy">Tereyağlı kat kat hamur, Antep fıstığı kreması ve kavrulmuş fıstık parçaları.</p>
+              <button class="product-card__action" type="button" aria-label="Pistachio Croissant siparişe ekle">+</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Google Maps değerlendirme alanı -->
+      <section class="google-reviews" id="reviews">
+        <div class="google-reviews__inner">
+          <header class="google-reviews__header">
+            <p class="google-reviews__eyebrow" data-i18n="reviews.eyebrow">Fikrinizi önemsiyoruz</p>
+            <h2 class="google-reviews__title" data-i18n="reviews.title">Yorumlar</h2>
+            <p class="google-reviews__copy" data-i18n="reviews.copy">
+              The Mandarin deneyiminizi paylaşın. Yorumunuz, bizi geliştirmemize ve yeni misafirlerin bizi keşfetmesine yardımcı olur.
+            </p>
+          </header>
+
+          <div class="google-review-card">
+            <div class="google-review-card__brand">
+              <span class="google-review-card__g" aria-hidden="true">G</span>
+              <span>Google Maps</span>
+            </div>
+            <div class="google-review-card__stars" aria-label="5 yıldız">★★★★★</div>
+            <p class="google-review-card__prompt" data-i18n="reviews.prompt">Kahvenizi, tabağınızı ve atmosferimizi nasıl buldunuz?</p>
+            <ol class="google-review-steps">
+              <li data-i18n="reviews.stepOne">Google Maps'te The Mandarin Erenköy sayfasını açın.</li>
+              <li data-i18n="reviews.stepTwo">Yıldızınızı seçin ve deneyiminizi birkaç cümleyle paylaşın.</li>
+            </ol>
+            <a
+              class="button google-review-card__cta"
+              href="https://www.google.com/maps/search/?api=1&amp;query=The+Mandarin+Erenkoy+Melikgazi+Kayseri"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="reviews.cta"
+            >Google Maps'te Yorum Yap</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Atmosfer / galeri ve ziyaret bilgileri -->
+      <section class="experience" id="experience">
+        <div class="experience__inner">
+          <header class="experience__header">
+            <p class="experience__eyebrow" data-i18n="experience.eyebrow">Kahve, ustalık ve mahalle ruhu</p>
+            <h2 class="experience__title" data-i18n="experience.title">Erenköy'de Bize Uğrayın</h2>
+          </header>
+
+          <div class="experience__layout">
+            <div class="gallery" aria-label="The Mandarin Erenköy atmosferi">
+              <figure class="gallery-print gallery-print--interior">
+                <div class="gallery-print__image" role="img" aria-label="Kahvecinin sıcak iç mekânı">
+                  <span class="gallery-scene gallery-scene--interior"></span>
+                </div>
+                <figcaption data-i18n="gallery.mornings">Sakin sabahlar</figcaption>
+              </figure>
+
+              <figure class="gallery-print gallery-print--barista">
+                <div class="gallery-print__image" role="img" aria-label="Kahve hazırlayan barista">
+                  <span class="gallery-scene gallery-scene--barista"></span>
+                </div>
+                <figcaption data-i18n="gallery.handmade">El emeğiyle</figcaption>
+              </figure>
+
+              <figure class="gallery-print gallery-print--counter">
+                <div class="gallery-print__image" role="img" aria-label="The Mandarin kahve tezgâhı">
+                  <span class="gallery-scene gallery-scene--counter"></span>
+                </div>
+                <figcaption data-i18n="gallery.meet">Mandarin'de buluşalım</figcaption>
+              </figure>
+            </div>
+
+            <aside class="visit-card" aria-label="Ziyaret bilgileri">
+              <p class="visit-card__label" data-i18n="visit.welcome">Bir kahveye bekleriz!</p>
+              <div class="visit-card__block">
+                <h3 data-i18n="visit.addressTitle">Adres</h3>
+                <address>
+                  Erenköy, Lavanta Sokak 1/8<br>
+                  38050 Melikgazi/Kayseri
+                </address>
+              </div>
+              <div class="visit-card__block">
+                <h3 data-i18n="visit.phoneTitle">Telefon</h3>
+                <a class="visit-card__phone" href="tel:4442352">444 2 352</a>
+              </div>
+              <div class="visit-card__block">
+                <h3 data-i18n="visit.hoursTitle">Çalışma Saatleri</h3>
+                <dl class="opening-hours">
+                  <div><dt data-i18n="visit.everyday">Her Gün</dt><dd>12:00 — 00:00</dd></div>
+                </dl>
+              </div>
+              <p class="visit-card__note" data-i18n="visit.transit">Melikgazi · Kayseri</p>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Alt bilgi / ziyaret detayları ve sosyal medya -->
+    <footer id="site-footer"></footer>
+
+    <script src="src/js/main.js" defer></script>
+  </body>
+</html>
