@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Pacifico&amp;family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&amp;display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&amp;family=Pacifico&amp;family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&amp;display=swap"
       rel="stylesheet"
     >
     <link rel="stylesheet" href="src/css/main.css">
@@ -52,11 +52,7 @@
             <li><a href="#site-footer" data-i18n="nav.contact">İletişim</a></li>
           </ul>
           <div class="language-switcher" aria-label="Dil seçimi">
-            <button class="language-switcher__option is-active" type="button" data-lang="TR" lang="tr" aria-pressed="true">TR</button>
-            <span class="language-switcher__divider" aria-hidden="true">|</span>
             <button class="language-switcher__option" type="button" data-lang="EN" lang="en" aria-pressed="false">EN</button>
-            <span class="language-switcher__divider" aria-hidden="true">|</span>
-            <button class="language-switcher__option" type="button" data-lang="FR" lang="fr" aria-pressed="false">FR</button>
           </div>
           <a class="button button--nav" href="tel:4442352" data-i18n="button.order">Bizi Arayın</a>
         </nav>
@@ -66,63 +62,32 @@
     <main>
       <!-- Hero / introduction de la marque -->
       <section class="hero" id="hero">
-        <div class="hero__heading">
-          <p class="hero__eyebrow" data-i18n="hero.eyebrow">Erenköy'ün Buluşma Noktası</p>
-          <h1 class="hero__title">
-            <span data-i18n="hero.title">Kahve, Kokteyl</span>
-            <span data-i18n="hero.titleAccent">&amp; Özel Lezzetler</span>
-          </h1>
+        <div class="hero__brand-crop" aria-hidden="true">
+          <img
+            src="src/assets/images/hero-logo-mark.svg"
+            data-logo-open="src/assets/images/hero-logo-mark.svg"
+            data-logo-closed="src/assets/images/hero-logo-mark-red.svg"
+            alt=""
+            width="699"
+            height="761"
+          >
         </div>
-
-        <div class="hero__stage">
-          <div class="hero__visual hero__visual--hot-latte">
-            <img
-              class="hero__image"
-              src="src/assets/images/hero-hot-latte.svg"
-              alt="Latte art ile sıcak kahve"
-              width="800"
-              height="800"
-            >
+        <div class="hero-split">
+          <div class="hero-split__content">
+            <p class="hero-split__kicker" data-i18n="hero.eyebrow">Erenköy'ün Buluşma Noktası</p>
+            <h1 class="hero-split__title">
+              <span data-i18n="hero.title">Kahve, Kokteyl</span>
+              <span data-i18n="hero.titleAccent">&amp; Özel Lezzetler</span>
+            </h1>
           </div>
 
-          <div class="hero__visual hero__visual--dish">
-            <img
-              class="hero__image"
-              src="src/assets/images/hero-dish.svg"
-              alt="The Mandarin mutfağından özel tabak"
-              width="800"
-              height="800"
-            >
-          </div>
-
-          <div class="hero__visual hero__visual--iced-latte">
-            <img
-              class="hero__image"
-              src="src/assets/images/latte-top-view.svg"
-              alt="The Mandarin buzlu latte, üstten görünüm"
-              width="800"
-              height="800"
-            >
-          </div>
-
-          <div class="hero__visual hero__visual--cocktail">
-            <img
-              class="hero__image"
-              src="src/assets/images/hero-cocktail.svg"
-              alt="Kurutulmuş portakallı özel kokteyl"
-              width="800"
-              height="800"
-            >
-          </div>
-
-          <div class="hero__visual hero__visual--pizza">
-            <img
-              class="hero__image"
-              src="src/assets/images/hero-pizza.svg"
-              alt="Fırından çıkmış pizza"
-              width="800"
-              height="800"
-            >
+          <div
+            class="hero-split__visual"
+            data-hero-slides
+            data-slides-base="src/assets/images/hero-slides"
+            aria-label="The Mandarin ürün görseli"
+          >
+            <img class="hero-split__product is-active" src="src/assets/images/hero-slides/hero-01.svg" alt="" width="800" height="800">
           </div>
         </div>
       </section>
@@ -143,19 +108,21 @@
         <div class="concept__inner">
           <div class="concept__content">
             <p class="concept__eyebrow" data-i18n="concept.eyebrow">The Mandarin'a Hoş Geldiniz</p>
-            <h2 class="concept__title" data-i18n="concept.title">Taze Kavrulmuş Kahve, Günlük Keyif</h2>
+            <h2 class="concept__title">
+              <span data-i18n="concept.title">Taze Kavrulmuş Kahve</span>
+              <span data-i18n="concept.titleAccent">Günlük Keyif</span>
+            </h2>
             <p class="concept__copy" data-i18n="concept.copy">
-              Erenköy'de her fincan, özenle seçilmiş ve karakterini ortaya çıkarmak
+              The Mandarin'de her fincan, özenle seçilmiş ve karakterini ortaya çıkarmak
               için taze kavrulmuş çekirdeklerle başlar. Baristalarımız latte sanatını
-              ustalık, titizlik ve yaratıcılıkla buluşturur. The Mandarin, kısa bir
-              mola için uğrayıp sıcak atmosferi için kalacağınız canlı bir mahalle
-              kahvecisidir.
+              ustalık, titizlik ve yaratıcılıkla buluşturur. The Mandarin, kısa bir mola
+              için uğrayıp sıcak atmosferi için kalacağınız canlı bir mahalle kahvecisidir.
             </p>
 
             <div class="concept__mascot">
               <img
-                src="src/assets/icons/coffee-mascot.svg"
-                alt="The Mandarin kahve çekirdeği maskotu"
+                src="src/assets/images/logo.svg"
+                alt="The Mandarin Erenköy logosu"
                 width="180"
                 height="180"
               >
@@ -181,7 +148,7 @@
                 >
               </div>
               <figcaption data-i18n="concept.caption">İyi kahve, güzel insanlar.</figcaption>
-              <span class="polaroid__badge">Erenköy, İstanbul</span>
+              <span class="polaroid__badge">Erenköy, Kayseri</span>
             </figure>
           </div>
         </div>
@@ -197,9 +164,6 @@
 
           <div class="menu-filters" aria-label="Menü kategorileri">
             <span class="menu-filter is-active" data-i18n="menu.filterAll">Tümü</span>
-            <span class="menu-filter" data-i18n="menu.filterCold">Soğuk Kahveler</span>
-            <span class="menu-filter" data-i18n="menu.filterHot">Sıcak Kahveler</span>
-            <span class="menu-filter" data-i18n="menu.filterPastry">Tatlılar &amp; Pastalar</span>
           </div>
         </div>
 
@@ -296,7 +260,10 @@
         <div class="experience__inner">
           <header class="experience__header">
             <p class="experience__eyebrow" data-i18n="experience.eyebrow">Kahve, ustalık ve mahalle ruhu</p>
-            <h2 class="experience__title" data-i18n="experience.title">Erenköy'de Bize Uğrayın</h2>
+            <h2 class="experience__title">
+              <span data-i18n="experience.title">Erenköy'de</span>
+              <span data-i18n="experience.titleAccent">Bize Uğrayın</span>
+            </h2>
           </header>
 
           <div class="experience__layout">

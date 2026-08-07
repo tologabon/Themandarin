@@ -12,11 +12,18 @@ const translations = {
     "hero.eyebrow": "Erenköy'ün Buluşma Noktası",
     "hero.title": "Kahve, Kokteyl",
     "hero.titleAccent": "& Özel Lezzetler",
+    "hero.order": "Online Sipariş",
+    "hero.cta": "Menüyü İncele",
+    "hero.signature": "Nitelikli Kahve & Mutfak",
+    "hero.copy": "Günün her saatine eşlik eden nitelikli kahveler, özgün kokteyller ve mutfaktan taze çıkan özel tatlar.",
+    "hero.location": "ERENKÖY · KAYSERİ",
+    "hero.hours": "HER GÜN · 12:00—00:00",
     "button.discover": "Menüyü Keşfet",
     "marquee.text": "NİTELİKLİ KAHVE ★ TAZE HAMUR İŞLERİ ★ COLD BREW ★ ERENKÖY ★",
     "concept.eyebrow": "The Mandarin'a Hoş Geldiniz",
-    "concept.title": "Taze Kavrulmuş Kahve, Günlük Keyif",
-    "concept.copy": "Erenköy'de her fincan, özenle seçilmiş ve karakterini ortaya çıkarmak için taze kavrulmuş çekirdeklerle başlar. Baristalarımız latte sanatını ustalık, titizlik ve yaratıcılıkla buluşturur. The Mandarin, kısa bir mola için uğrayıp sıcak atmosferi için kalacağınız canlı bir mahalle kahvecisidir.",
+    "concept.title": "Taze Kavrulmuş Kahve",
+    "concept.titleAccent": "Günlük Keyif",
+    "concept.copy": "The Mandarin'de her fincan, özenle seçilmiş ve karakterini ortaya çıkarmak için taze kavrulmuş çekirdeklerle başlar. Baristalarımız latte sanatını ustalık, titizlik ve yaratıcılıkla buluşturur. The Mandarin, kısa bir mola için uğrayıp sıcak atmosferi için kalacağınız canlı bir mahalle kahvecisidir.",
     "concept.mascot": "Sevgiyle kavruldu",
     "concept.caption": "İyi kahve, güzel insanlar.",
     "menu.eyebrow": "Tutkuyla hazırlandı",
@@ -58,7 +65,8 @@ const translations = {
     "reviews.stepTwo": "Yıldızınızı seçin ve deneyiminizi birkaç cümleyle paylaşın.",
     "reviews.cta": "Google Maps'te Yorum Yap",
     "experience.eyebrow": "Kahve, ustalık ve mahalle ruhu",
-    "experience.title": "Erenköy'de Bize Uğrayın",
+    "experience.title": "Erenköy'de",
+    "experience.titleAccent": "Bize Uğrayın",
     "gallery.mornings": "Sakin sabahlar",
     "gallery.handmade": "El emeğiyle",
     "gallery.meet": "Mandarin'de buluşalım",
@@ -80,11 +88,18 @@ const translations = {
     "hero.eyebrow": "Erenköy's Meeting Point",
     "hero.title": "Coffee, Cocktails",
     "hero.titleAccent": "& Signature Flavours",
+    "hero.order": "Order Online",
+    "hero.cta": "Explore the Menu",
+    "hero.signature": "Specialty Coffee & Kitchen",
+    "hero.copy": "Specialty coffees, original cocktails and freshly prepared kitchen creations for every moment of the day.",
+    "hero.location": "ERENKÖY · KAYSERİ",
+    "hero.hours": "EVERY DAY · 12:00—00:00",
     "button.discover": "Explore the Menu",
     "marquee.text": "SPECIALTY COFFEE ★ FRESH PASTRIES ★ COLD BREW ★ ERENKÖY ★",
     "concept.eyebrow": "Welcome to The Mandarin",
-    "concept.title": "Freshly Roasted Meets Daily Indulgence",
-    "concept.copy": "In Erenköy, every cup begins with carefully selected beans, freshly roasted to reveal their character. Our baristas bring craft, precision and creativity to every latte. The Mandarin is a lively neighbourhood coffee shop: come for a quick break and stay for the warm atmosphere.",
+    "concept.title": "Freshly Roasted Meets",
+    "concept.titleAccent": "Daily Indulgence",
+    "concept.copy": "At The Mandarin, every cup begins with carefully selected beans, freshly roasted to reveal their character. Our baristas bring craft, precision and creativity to every latte. The Mandarin is a lively neighbourhood coffee shop: come for a quick break and stay for the warm atmosphere.",
     "concept.mascot": "Roasted with love",
     "concept.caption": "Good coffee, good people.",
     "menu.eyebrow": "Made with passion",
@@ -126,7 +141,8 @@ const translations = {
     "reviews.stepTwo": "Choose your rating and share your experience in a few words.",
     "reviews.cta": "Review on Google Maps",
     "experience.eyebrow": "Coffee, craft & neighbourhood",
-    "experience.title": "Come Visit Us in Erenköy",
+    "experience.title": "Come Visit Us",
+    "experience.titleAccent": "in Erenköy",
     "gallery.mornings": "Slow mornings",
     "gallery.handmade": "Made by hand",
     "gallery.meet": "Meet at Mandarin",
@@ -148,11 +164,18 @@ const translations = {
     "hero.eyebrow": "Le Point de Rencontre d'Erenköy",
     "hero.title": "Café, Cocktails",
     "hero.titleAccent": "& Saveurs Signatures",
+    "hero.order": "Commander en ligne",
+    "hero.cta": "Découvrir la Carte",
+    "hero.signature": "Café de Spécialité & Cuisine",
+    "hero.copy": "Des cafés de spécialité, des cocktails originaux et des créations fraîches pour accompagner chaque moment de la journée.",
+    "hero.location": "ERENKÖY · KAYSERİ",
+    "hero.hours": "TOUS LES JOURS · 12:00—00:00",
     "button.discover": "Découvrir la Carte",
     "marquee.text": "CAFÉ DE SPÉCIALITÉ ★ PÂTISSERIES FRAÎCHES ★ COLD BREW ★ ERENKÖY ★",
     "concept.eyebrow": "Bienvenue chez The Mandarin",
-    "concept.title": "Fraîchement Torréfié, Plaisir Quotidien",
-    "concept.copy": "À Erenköy, chaque tasse commence par des grains soigneusement sélectionnés et fraîchement torréfiés pour révéler leur caractère. Nos baristas associent savoir-faire, précision et créativité dans chaque latte. The Mandarin est un café de quartier vivant : on y vient pour une pause, on y reste pour son atmosphère chaleureuse.",
+    "concept.title": "Fraîchement Torréfié",
+    "concept.titleAccent": "Plaisir Quotidien",
+    "concept.copy": "Chez The Mandarin, chaque tasse commence par des grains soigneusement sélectionnés et fraîchement torréfiés pour révéler leur caractère. Nos baristas associent savoir-faire, précision et créativité dans chaque latte. The Mandarin est un café de quartier vivant : on y vient pour une pause, on y reste pour son atmosphère chaleureuse.",
     "concept.mascot": "Torréfié avec amour",
     "concept.caption": "Bon café, belles rencontres.",
     "menu.eyebrow": "Fait avec passion",
@@ -194,7 +217,8 @@ const translations = {
     "reviews.stepTwo": "Choisissez votre note et racontez votre expérience en quelques mots.",
     "reviews.cta": "Donner un avis sur Google Maps",
     "experience.eyebrow": "Café, savoir-faire & quartier",
-    "experience.title": "Passez Nous Voir à Erenköy",
+    "experience.title": "Passez Nous Voir",
+    "experience.titleAccent": "à Erenköy",
     "gallery.mornings": "Matins tranquilles",
     "gallery.handmade": "Fait à la main",
     "gallery.meet": "Rendez-vous au Mandarin",
@@ -215,6 +239,79 @@ document.addEventListener("DOMContentLoaded", () => {
   const navigationLinks = document.querySelectorAll(".primary-nav a");
   const conceptImage = document.querySelector(".polaroid__image");
   const languageButtons = document.querySelectorAll("[data-lang]");
+  const timedHeroLogo = document.querySelector("[data-logo-open][data-logo-closed]");
+  const heroSlidesStage = document.querySelector("[data-hero-slides]");
+
+  const loadHeroSlide = (source) => new Promise((resolve) => {
+    const image = new Image();
+    image.className = "hero-split__product";
+    image.alt = "";
+    image.width = 800;
+    image.height = 800;
+    image.addEventListener("load", () => resolve(image), { once: true });
+    image.addEventListener("error", () => resolve(null), { once: true });
+    image.src = source;
+  });
+
+  const initializeHeroSlides = async () => {
+    if (!heroSlidesStage) return;
+
+    const basePath = heroSlidesStage.dataset.slidesBase;
+    const loadedSlides = [];
+
+    for (let index = 1; index <= 20; index += 1) {
+      const fileNumber = String(index).padStart(2, "0");
+      const slide = await loadHeroSlide(`${basePath}/hero-${fileNumber}.svg`);
+      if (!slide) break;
+      loadedSlides.push(slide);
+    }
+
+    if (!loadedSlides.length) return;
+
+    loadedSlides[0].classList.add("is-active");
+    heroSlidesStage.replaceChildren(...loadedSlides);
+
+    if (loadedSlides.length === 1 || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    let activeIndex = 0;
+    window.setInterval(() => {
+      const currentSlide = loadedSlides[activeIndex];
+      const nextIndex = (activeIndex + 1) % loadedSlides.length;
+
+      currentSlide.classList.remove("is-active");
+      window.setTimeout(() => {
+        activeIndex = nextIndex;
+        loadedSlides[activeIndex].classList.add("is-active");
+      }, 430);
+    }, 3000);
+  };
+
+  initializeHeroSlides();
+
+  const updateHeroLogo = () => {
+    if (!timedHeroLogo) return;
+
+    const istanbulHour = Number(
+      new Intl.DateTimeFormat("en-GB", {
+        hour: "2-digit",
+        hourCycle: "h23",
+        timeZone: "Europe/Istanbul"
+      }).format(new Date())
+    );
+    const isRestaurantOpen = istanbulHour >= 12;
+    const requestedLogo = isRestaurantOpen
+      ? timedHeroLogo.dataset.logoOpen
+      : timedHeroLogo.dataset.logoClosed;
+
+    if (timedHeroLogo.getAttribute("src") !== requestedLogo) {
+      timedHeroLogo.src = requestedLogo;
+    }
+
+    timedHeroLogo.dataset.restaurantState = isRestaurantOpen ? "open" : "closed";
+  };
+
+  updateHeroLogo();
+  window.setInterval(updateHeroLogo, 60_000);
 
   const applyLanguage = (language) => {
     const selectedLanguage = translations[language] ? language : "TR";
@@ -233,27 +330,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.documentElement.lang = selectedLanguage.toLowerCase();
     document.title = dictionary.pageTitle;
-
-    try {
-      localStorage.setItem("mandarin-language", selectedLanguage);
-    } catch (error) {
-      // Le site reste utilisable lorsque le stockage local est indisponible.
-    }
   };
-
-  let savedLanguage = "TR";
-
-  try {
-    savedLanguage = localStorage.getItem("mandarin-language") || "TR";
-  } catch (error) {
-    savedLanguage = "TR";
-  }
 
   languageButtons.forEach((button) => {
     button.addEventListener("click", () => applyLanguage(button.dataset.lang));
   });
 
-  applyLanguage(savedLanguage);
+  applyLanguage("TR");
 
   const closeMenu = () => {
     menuToggle?.setAttribute("aria-expanded", "false");
@@ -282,6 +365,57 @@ document.addEventListener("DOMContentLoaded", () => {
     conceptImage.addEventListener("error", showConceptPlaceholder);
   } else if (conceptImage && conceptImage.naturalWidth === 0) {
     showConceptPlaceholder();
+  }
+
+  const scrollSections = document.querySelectorAll(
+    "#concept, #signature-menu, #reviews, #experience"
+  );
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const revealVariants = {
+    concept: "scroll-reveal--concept",
+    "signature-menu": "scroll-reveal--menu",
+    reviews: "scroll-reveal--reviews",
+    experience: "scroll-reveal--experience"
+  };
+
+  const revealItemSelectors = [
+    ".concept__content",
+    ".concept__visual",
+    ".signature-menu__header",
+    ".product-card",
+    ".google-reviews__header",
+    ".google-review-card",
+    ".experience__header",
+    ".gallery",
+    ".visit-card"
+  ].join(",");
+
+  scrollSections.forEach((section) => {
+    section.classList.add("scroll-reveal");
+    section.classList.add(revealVariants[section.id]);
+
+    section.querySelectorAll(revealItemSelectors).forEach((item, index) => {
+      item.classList.add("scroll-reveal-item");
+      item.style.setProperty("--reveal-order", index);
+    });
+  });
+
+  if (reducedMotion || !("IntersectionObserver" in window)) {
+    scrollSections.forEach((section) => section.classList.add("is-visible"));
+  } else {
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          entry.target.classList.toggle("is-visible", entry.isIntersecting);
+        });
+      },
+      {
+        threshold: 0.14,
+        rootMargin: "0px 0px -8% 0px"
+      }
+    );
+
+    scrollSections.forEach((section) => revealObserver.observe(section));
   }
 
 });
