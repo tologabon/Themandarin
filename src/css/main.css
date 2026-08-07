@@ -2128,6 +2128,282 @@ section {
   }
 }
 
+/* Reconstruction mobile finale — aucune incidence sur le desktop */
+@media (max-width: 768px) {
+  :root {
+    --page-gutter: 1rem;
+  }
+
+  .navbar {
+    min-height: 4.25rem;
+    gap: 0.75rem;
+  }
+
+  .brand__name {
+    font-size: 1.15rem;
+    letter-spacing: 0;
+  }
+
+  .brand__details {
+    margin-top: 0.38rem;
+    gap: 0.4rem;
+  }
+
+  .brand__location,
+  .brand__tagline {
+    font-size: 0.42rem;
+  }
+
+  .brand__tagline {
+    padding-left: 0.55rem;
+  }
+
+  .menu-toggle {
+    width: 2.65rem;
+    height: 2.65rem;
+    padding: 0.55rem;
+  }
+
+  .primary-nav {
+    max-height: calc(100vh - 4.25rem);
+    padding: 1rem var(--page-gutter) 1.35rem;
+    overflow-y: auto;
+  }
+
+  .primary-nav__list {
+    margin-bottom: 1rem;
+  }
+
+  .primary-nav__list a {
+    padding: 0.8rem 0;
+    font-size: 0.82rem;
+  }
+
+  .primary-nav .language-switcher {
+    margin: 1rem 0 1.35rem;
+  }
+
+  .button--nav {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 7.75rem var(--page-gutter) 2.5rem;
+  }
+
+  .hero__brand-crop {
+    top: 0;
+    width: 7.5rem;
+  }
+
+  .hero-split {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.5rem;
+    width: 100%;
+  }
+
+  .hero-split__content {
+    width: 100%;
+    max-width: 30rem;
+    margin-inline: auto;
+  }
+
+  .hero-split__kicker {
+    margin-bottom: 0.65rem;
+    font-size: clamp(1.05rem, 4.8vw, 1.35rem);
+  }
+
+  .hero-split__title {
+    max-width: 9.5ch;
+    font-size: clamp(2.75rem, 12vw, 3.8rem);
+    line-height: 0.86;
+    letter-spacing: -0.01em;
+  }
+
+  .hero-split__title span:last-child {
+    margin-top: 0.12em;
+  }
+
+  .hero-split__visual {
+    min-height: clamp(19rem, 80vw, 23rem);
+    margin-top: -18rem;
+  }
+
+  .hero-split__product {
+    top: 48%;
+    right: 2%;
+    left: auto;
+    width: min(19rem, 70vw);
+    height: min(19rem, 70vw);
+    transform: translateY(-50%) rotate(8deg);
+  }
+
+  .hero-split__product.is-active {
+    z-index: 8;
+  }
+
+  .concept,
+  .signature-menu,
+  .google-reviews,
+  .experience {
+    padding-right: var(--page-gutter);
+    padding-left: var(--page-gutter);
+  }
+
+  .concept {
+    padding-block: 4.5rem;
+  }
+
+  .concept__inner {
+    gap: 3rem;
+  }
+
+  .concept__eyebrow {
+    font-size: 1.35rem;
+  }
+
+  .concept__title {
+    max-width: 10ch;
+    font-size: clamp(3.35rem, 15vw, 4.75rem);
+    line-height: 0.87;
+  }
+
+  .concept__copy {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .concept__mascot {
+    gap: 0.75rem;
+    transform: rotate(-2deg);
+  }
+
+  .concept__mascot img {
+    width: 4rem;
+  }
+
+  .concept__visual {
+    width: min(88%, 25rem);
+    margin-inline: auto;
+    padding-inline: 0;
+  }
+
+  .signature-menu {
+    padding-block: 4.5rem;
+  }
+
+  .signature-menu__header {
+    gap: 1.25rem;
+  }
+
+  .signature-menu__eyebrow {
+    top: -0.75rem;
+    font-size: 1.45rem;
+  }
+
+  .signature-menu__title {
+    max-width: 10ch;
+    font-size: clamp(3.25rem, 14.5vw, 4.6rem);
+    line-height: 0.86;
+  }
+
+  .menu-filter {
+    min-width: 6rem;
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.8rem;
+    margin-top: 2rem;
+  }
+
+  .product-card {
+    box-shadow: 3px 3px 0 var(--color-espresso);
+  }
+
+  .product-card__visual {
+    min-height: clamp(8.5rem, 42vw, 12rem);
+  }
+
+  .product-card__body {
+    min-height: 12.5rem;
+    padding: 0.85rem 0.8rem 3.35rem;
+  }
+
+  .product-card h3 {
+    font-size: clamp(1.3rem, 5.8vw, 1.8rem);
+    line-height: 0.9;
+  }
+
+  .product-card__body > p {
+    font-size: 0.7rem;
+    line-height: 1.45;
+  }
+
+  .product-card__price {
+    min-width: 3rem;
+    font-size: 0.95rem;
+  }
+
+  .google-reviews {
+    padding-block: 4.5rem;
+  }
+
+  .google-reviews__inner {
+    gap: 2.5rem;
+  }
+
+  .google-reviews__title {
+    font-size: clamp(3.5rem, 17vw, 5rem);
+  }
+
+  .google-review-card {
+    padding: 1.35rem;
+    box-shadow: 4px 4px 0 var(--color-espresso);
+  }
+
+  .experience {
+    padding-block: 5rem;
+  }
+
+  .experience__header {
+    margin-bottom: 3rem;
+  }
+
+  .experience__eyebrow {
+    top: -0.75rem;
+    font-size: 1.3rem;
+  }
+
+  .experience__title {
+    max-width: 10ch;
+    font-size: clamp(3.5rem, 16vw, 5rem);
+    line-height: 0.84;
+  }
+
+  .experience__layout {
+    gap: 3rem;
+  }
+
+  .gallery {
+    min-height: clamp(31rem, 145vw, 40rem);
+  }
+
+  .visit-card {
+    padding: 1.4rem;
+    box-shadow: 5px 5px 0 var(--color-mustard);
+  }
+
+  .scroll-reveal-item,
+  .scroll-reveal-item:nth-child(even) {
+    translate: 0 2.5rem;
+  }
+}
+
 /* Apparition progressive des sections à partir de Hakkımızda */
 .scroll-reveal {
   opacity: 0.25;
