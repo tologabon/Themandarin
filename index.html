@@ -95,8 +95,18 @@
       <!-- Bandeau défilant / signatures de la maison -->
       <div class="marquee" aria-label="The Mandarin lezzetleri">
         <div class="marquee__track">
-          <p data-i18n="marquee.text">NİTELİKLİ KAHVE ★ TAZE HAMUR İŞLERİ ★ COLD BREW ★ ERENKÖY ★</p>
-          <p data-i18n="marquee.text" aria-hidden="true">NİTELİKLİ KAHVE ★ TAZE HAMUR İŞLERİ ★ COLD BREW ★ ERENKÖY ★</p>
+          <p>
+            <span data-i18n="marquee.coffee">NİTELİKLİ KAHVE</span><img src="src/assets/images/logo.svg" alt="">
+            <span data-i18n="marquee.pastry">TAZE HAMUR İŞLERİ</span><img src="src/assets/images/logo.svg" alt="">
+            <span data-i18n="marquee.coldbrew">COLD BREW</span><img src="src/assets/images/logo.svg" alt="">
+            <span data-i18n="marquee.location">ERENKÖY</span><img src="src/assets/images/logo.svg" alt="">
+          </p>
+          <p aria-hidden="true">
+            <span data-i18n="marquee.coffee">NİTELİKLİ KAHVE</span><img src="src/assets/images/logo.svg" alt="">
+            <span data-i18n="marquee.pastry">TAZE HAMUR İŞLERİ</span><img src="src/assets/images/logo.svg" alt="">
+            <span data-i18n="marquee.coldbrew">COLD BREW</span><img src="src/assets/images/logo.svg" alt="">
+            <span data-i18n="marquee.location">ERENKÖY</span><img src="src/assets/images/logo.svg" alt="">
+          </p>
         </div>
       </div>
 
@@ -141,7 +151,7 @@
                 </div>
                 <img
                   class="polaroid__image"
-                  src="src/assets/images/concept-store.jpg"
+                  src="src/assets/images/concept-store.svg"
                   alt="The Mandarin Erenköy kahve dükkânının cephesi"
                   width="800"
                   height="960"
@@ -170,53 +180,45 @@
         <div class="product-grid">
           <article class="product-card">
             <div class="product-card__visual product-card__visual--caramel">
-              <span class="product-card__price">₺160</span>
-              <div class="product-placeholder product-placeholder--iced" aria-hidden="true"><span></span></div>
+              <img class="product-card__image" src="src/assets/images/products/iced-americano.svg" alt="Buzlu Americano" width="600" height="600">
             </div>
             <div class="product-card__body">
-              <span class="product-card__tag" data-i18n="product.caramel.tag">Çok Satan</span>
-              <h3 data-i18n="product.caramel.name">Smashed Caramel Latte</h3>
-              <p data-i18n="product.caramel.copy">Double espresso, kadifemsi süt, ev yapımı karamel ve bir tutam deniz tuzu.</p>
-              <button class="product-card__action" type="button" aria-label="Smashed Caramel Latte siparişe ekle">+</button>
+              <span class="product-card__tag" data-i18n="product.caramel.tag">Buzlu</span>
+              <h3 data-i18n="product.caramel.name">Iced Americano</h3>
+              <p data-i18n="product.caramel.copy">Çift shot espresso, soğuk su ve bol buzla hazırlanan ferah ve dengeli bir klasik.</p>
             </div>
           </article>
 
           <article class="product-card">
             <div class="product-card__visual product-card__visual--brew">
-              <span class="product-card__price">₺145</span>
-              <div class="product-placeholder product-placeholder--iced" aria-hidden="true"><span></span></div>
+              <img class="product-card__image" src="src/assets/images/products/espresso-martini.svg" alt="Espresso Martini" width="600" height="600">
             </div>
             <div class="product-card__body">
-              <span class="product-card__tag" data-i18n="product.coldbrew.tag">Sadece Soğuk</span>
-              <h3 data-i18n="product.coldbrew.name">Erenköy Cold Brew</h3>
-              <p data-i18n="product.coldbrew.copy">18 saatlik yavaş demleme; kakao, portakal ve esmer şeker notaları.</p>
-              <button class="product-card__action" type="button" aria-label="Erenköy Cold Brew siparişe ekle">+</button>
+              <span class="product-card__tag" data-i18n="product.coldbrew.tag">İmza İçecek</span>
+              <h3 data-i18n="product.coldbrew.name">Espresso Martini</h3>
+              <p data-i18n="product.coldbrew.copy">Taze espresso, vanilya ve kadifemsi köpükle hazırlanan dengeli imza içeceğimiz.</p>
             </div>
           </article>
 
           <article class="product-card">
-            <div class="product-card__visual product-card__visual--espresso">
-              <span class="product-card__price">₺110</span>
-              <div class="product-placeholder product-placeholder--hot" aria-hidden="true"><span></span></div>
+            <div class="product-card__visual product-card__visual--mango">
+              <img class="product-card__image" src="src/assets/images/products/mango-frozen.svg" alt="Mango Frozen" width="600" height="600">
             </div>
             <div class="product-card__body">
-              <span class="product-card__tag" data-i18n="product.americano.tag">Özel Kavrum</span>
-              <h3 data-i18n="product.americano.name">Mandarin Americano</h3>
-              <p data-i18n="product.americano.copy">Turunçgil notaları taşıyan, dengeli ve ipeksi imza espressomuz.</p>
-              <button class="product-card__action" type="button" aria-label="Mandarin Americano siparişe ekle">+</button>
+              <span class="product-card__tag" data-i18n="product.mango.tag">Ferahlatıcı</span>
+              <h3 data-i18n="product.mango.name">Mango Frozen</h3>
+              <p data-i18n="product.mango.copy">Yoğun mango aroması ve bol buzla hazırlanan canlı, ferahlatıcı imza içeceğimiz.</p>
             </div>
           </article>
 
           <article class="product-card">
-            <div class="product-card__visual product-card__visual--pistachio">
-              <span class="product-card__price">₺135</span>
-              <div class="product-placeholder product-placeholder--pastry" aria-hidden="true"><span></span></div>
+            <div class="product-card__visual product-card__visual--pizza">
+              <img class="product-card__image" src="src/assets/images/products/karisik-pizza.svg" alt="Karışık Pizza" width="600" height="600">
             </div>
             <div class="product-card__body">
-              <span class="product-card__tag" data-i18n="product.croissant.tag">Her Gün Taze</span>
-              <h3 data-i18n="product.croissant.name">Pistachio Croissant</h3>
-              <p data-i18n="product.croissant.copy">Tereyağlı kat kat hamur, Antep fıstığı kreması ve kavrulmuş fıstık parçaları.</p>
-              <button class="product-card__action" type="button" aria-label="Pistachio Croissant siparişe ekle">+</button>
+              <span class="product-card__tag" data-i18n="product.pizza.tag">Fırından Taze</span>
+              <h3 data-i18n="product.pizza.name">Karışık Pizza</h3>
+              <p data-i18n="product.pizza.copy">İnce hamur, domates sosu, eriyen peynir ve özenle seçilmiş zengin malzemeler.</p>
             </div>
           </article>
         </div>
@@ -238,7 +240,13 @@
               <span class="google-review-card__g" aria-hidden="true">G</span>
               <span>Google Maps</span>
             </div>
-            <div class="google-review-card__stars" aria-label="5 yıldız">★★★★★</div>
+            <div class="google-review-card__stars" aria-label="5 restoran logosu">
+              <img src="src/assets/images/logo.svg" alt="">
+              <img src="src/assets/images/logo.svg" alt="">
+              <img src="src/assets/images/logo.svg" alt="">
+              <img src="src/assets/images/logo.svg" alt="">
+              <img src="src/assets/images/logo.svg" alt="">
+            </div>
             <p class="google-review-card__prompt" data-i18n="reviews.prompt">Kahvenizi, tabağınızı ve atmosferimizi nasıl buldunuz?</p>
             <ol class="google-review-steps">
               <li data-i18n="reviews.stepOne">Google Maps'te The Mandarin Erenköy sayfasını açın.</li>
@@ -276,8 +284,14 @@
               </figure>
 
               <figure class="gallery-print gallery-print--barista">
-                <div class="gallery-print__image" role="img" aria-label="Kahve hazırlayan barista">
-                  <span class="gallery-scene gallery-scene--barista"></span>
+                <div class="gallery-print__image">
+                  <img
+                    class="gallery-print__photo"
+                    src="src/assets/images/chef.svg"
+                    alt="The Mandarin şefi"
+                    width="800"
+                    height="1000"
+                  >
                 </div>
                 <figcaption data-i18n="gallery.handmade">El emeğiyle</figcaption>
               </figure>
